@@ -61,7 +61,7 @@ function generateResponse(data) {
     'match': [`${levels[data.comp_level]} Match ${data.set_number}`],
     'partners': [`${partners.join(' and ')}`],
     'won': [`We won #match# #score# thanks to our #partners#`],
-    'lost': [`We lost #match# #score# thanks to our #partners#`]
+    'lost': [`We lost #match# #score# with our #partners#`]
   });
 
   grammar.addModifiers(tracery.baseEngModifiers);
